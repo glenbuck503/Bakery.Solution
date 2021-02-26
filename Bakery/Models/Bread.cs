@@ -22,7 +22,6 @@ namespace Bakery.Models
       {
         return CustomerOrder * 5;
       }
-    
     }
   }
   
