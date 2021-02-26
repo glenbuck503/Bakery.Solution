@@ -9,6 +9,7 @@ namespace Pastry.Models
     public Pastry(int customerOrder)
     {
       CustomerPastry = customerOrder;
+      //trying to figure out logic
     }
   }
 
