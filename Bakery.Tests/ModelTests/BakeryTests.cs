@@ -21,7 +21,16 @@ namespace Bakery.Tests
       int breadOrder = 1;
       Bread newBreadOrder = new Bread(breadOrder);
       int result = newBreadOrder.BreadOrderPrice();
-      Assert.AreEqual(1, result);
+      Assert.AreEqual(5, result);
+     
+    }
+
+    [TestMethod]
+    {
+      public void BreadOrderPrice_ReturnsBreadTotalPriceIfBuying2WithDeal()
+      {
+        
+      }
     }
 
 
