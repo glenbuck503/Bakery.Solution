@@ -22,7 +22,6 @@ namespace Bakery.Tests
       Bread newBreadOrder = new Bread(breadOrder);
       int result = newBreadOrder.BreadOrderPrice();
       Assert.AreEqual(5, result);
-
     }
 
     [TestMethod]
@@ -75,7 +74,6 @@ namespace Bakery.Tests
       Pastry newPastryOrder = new Pastry(pastryOrder);
       int result = newPastryOrder.PastryOrderPrice();
       Assert.AreEqual(10, result);
-
     }
 
   }
