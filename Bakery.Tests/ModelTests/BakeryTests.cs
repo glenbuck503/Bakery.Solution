@@ -69,7 +69,14 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void PastryOrderPrice_ReturnsPastryTotalPriceIfBuying3WithDeal()
-    
+    public void PastryOrderPrice_ReturnsPastryTotalPriceIfBuying6WithDeal()
+    {
+      int pastryOrder = 6;
+      Pastry newPastryOrder = new Pastry(pastryOrder);
+      int result = newPastryOrder.PastryOrderPrice();
+      Assert.AreEqual(20, result);
+
+    }
+
   }
 }
