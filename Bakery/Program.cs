@@ -16,8 +16,12 @@ namespace Bakery.Models
 
       Bread breadOrder = new Bread(custBread);
       Pastry pastryOrder = new Pastry(custPastry);
-      
-      Console.WriteLine($"Your bread order total price is ${breadOrder.BreadOrderPrice()} ");
+
+      Console.WriteLine($"You ordered {custBread} loaves of bead. Your bread order total price is ${breadOrder.BreadOrderPrice()}. ");
+
+      Console.WriteLine($"You ordered {custPastry} pastries. Your pastry order total price is ${pastryOrder.PastryOrderPrice()}. ");
+
+
     }
   }
 }
