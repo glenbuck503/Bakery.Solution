@@ -65,7 +65,7 @@ namespace Bakery.Tests
       int pastryOrder = 3;
       Pastry newPastryOrder = new Pastry(pastryOrder);
       int result = newPastryOrder.PastryOrderPrice();
-      Assert.AreEqual(6, result);
+      Assert.AreEqual(5, result);
     }
   }
 }
