@@ -1,11 +1,19 @@
 # Pierre's Bakery Shop
 
+<div align="center">
+<img src="https://github.com/glenbuck503.png" width="200px" height="auto" >
+</div>
+<br>
+<br>
+<br>
+
 #### This application will return the price for a user's choice of bread and pastries. It will then show the total price for all items.
 
 #### By Glen Buck
 
 ## Description
 
+This application will let users enter in an amount of loaves they would like for bread, and the amount of pastries they would like. It will show the user the specials for each, which bread is buy 2 loaves and get 1 free, and buy 3 pastries for $5. It will then show the user the total price for their bread items and then the total price for their pastries. The final line will show the total price for all of their items.
 
 
 ## Setup/Installation Requirements
