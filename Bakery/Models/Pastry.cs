@@ -1,6 +1,6 @@
 using System;
 
-namespace Pastry.Models
+namespace Bakery.Models
 {
   public class Pastry
   {
@@ -9,8 +9,27 @@ namespace Pastry.Models
     public Pastry(int customerOrder)
     {
       CustomerPastry = customerOrder;
-      //trying to figure out logic
+      
+    }
+
+    public int PastryOrderPrice()
+    {
+      if (CustomerPastry % 3 == 0)
+      {
+        int price = (CustomerPastry / 3) * 5;
+        return price;
+      }
+      else if (CustomerPastry % 3 > 0 && CustomerPastry > 3)
+      {
+        int price = ((CustomerPastry / 3) * 5) + ((CustomerPastry % 3) * 2);
+        return price;
+      }
+      else
+      {
+        return CustomerPastry * 2;
+      }
     }
   }
 
 }
+  
