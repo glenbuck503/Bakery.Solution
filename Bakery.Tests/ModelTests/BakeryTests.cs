@@ -21,7 +21,7 @@ namespace Bakery.Tests
       int breadOrder = 1;
       Bread newBreadOrder = new Bread(breadOrder);
       int result = newBreadOrder.BreadOrderPrice();
-      Assert.AreEqual(5, result);
+      Assert.AreEqual(1, result);
     }
 
 
