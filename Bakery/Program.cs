@@ -21,6 +21,8 @@ namespace Bakery.Models
 
       Console.WriteLine($"You ordered {custPastry} pastries. Your pastry order total price is ${pastryOrder.PastryOrderPrice()}. ");
 
+      Console.WriteLine($"YOUR TOTAL PRICE FOR ALL ITEMS IS: ${breadOrder.BreadOrderPrice() + pastryOrder.PastryOrderPrice()}");
+
 
     }
   }
