@@ -6,6 +6,12 @@ namespace Bakery.Models
   {
     public static void Main()
     {
+      //further exploration
+      Bread wheatBread = new Bread()
+
+      //
+
+      
       Console.WriteLine("Welcome To Pierre's Bakery Shop!");
       Console.WriteLine("Bread is $5 a loaf. BREAD SPECIAL: Buy 2 get 1 free!");
       Console.WriteLine("Pastries are $2 each. PASTRY SPECIAL: Buy 3 for $5!");
