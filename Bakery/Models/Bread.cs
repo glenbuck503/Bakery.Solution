@@ -13,10 +13,17 @@ namespace Bakery.Models
 
     public int BreadOrderPrice()
     {
-      
+      if (CustomerOrder % 3 == 0)
+      {
+        int totalPrice = (CustomerOrder - (CustomerOrder / 3)) * 5;
+        return totalPrice;
+      }
+      else
+      {
+        return CustomerOrder * 5;
+      }
+    
     }
-
   }
-
   
 }
