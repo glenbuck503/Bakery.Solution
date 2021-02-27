@@ -14,8 +14,7 @@
 ## Description
 
 This application will let users enter in an amount of loaves they would like for bread, and the amount of pastries they would like. It will show the user the specials for each, which bread is buy 2 loaves and get 1 free, and buy 3 pastries for $5. It will then show the user the total price for their bread items and then the total price for their pastries. The final line will show the total price for all of their items.
-
-
+  
 ## Setup/Installation Requirements
 
 - Go to https://github.com/glenbuck503/Bakery.Solution
@@ -40,7 +39,6 @@ For contact support, please email Glen Buck <a href = "mailto: glenbuck@gamil.co
 
 - VS Code
 - Git
-- Git Hub
 - Jquery
 - .NET Core
 - MS Tests

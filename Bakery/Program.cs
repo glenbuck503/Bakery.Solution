@@ -9,7 +9,6 @@ namespace Bakery.Models
       Console.BackgroundColor = ConsoleColor.Black;
       Console.ForegroundColor = ConsoleColor.Yellow;
 
-      
       Console.WriteLine("Welcome To Pierre's Bakery Shop!");
       Console.WriteLine("Bread is $5 a loaf. BREAD SPECIAL: Buy 2 get 1 free!");
       Console.WriteLine("Pastries are $2 each. PASTRY SPECIAL: Buy 3 for $5!");
@@ -19,7 +18,6 @@ namespace Bakery.Models
       Console.WriteLine("How many pastries would you like? :");
       int custPastry = int.Parse(Console.ReadLine());
       
-
       Bread breadOrder = new Bread(custBread);
       Pastry pastryOrder = new Pastry(custPastry);
 
@@ -32,8 +30,6 @@ namespace Bakery.Models
       Console.WriteLine("");
       Console.WriteLine($"YOUR TOTAL PRICE FOR ALL ITEMS IS: ${breadOrder.BreadOrderPrice() + pastryOrder.PastryOrderPrice()}");
       Console.WriteLine("");
-
-
     }
   }
 }
