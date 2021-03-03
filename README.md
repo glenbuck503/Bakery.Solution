@@ -29,7 +29,7 @@ This application will let users enter in an amount of loaves they would like for
 - To run the program in your terminal, navigate back to the root directory (Bakery.Solution) by typing in "cd .." (if you are still in the Bakery.Test directory)
 - Navigate to the Bakery directory by typing in " cd Bakery ". Now in the terminal type in "dotnet restore" to restore any .csproj files in there. Now type in "dotnet run" and the program will run.
 
-## No known bugs as of 12/26/2021
+## No known bugs as of 3/2/2021
 
 ## Support and contact details
 
@@ -39,7 +39,6 @@ For contact support, please email Glen Buck <a href = "mailto: glenbuck@gamil.co
 
 - VS Code
 - Git
-- Jquery
 - .NET Core
 - MS Tests
 - MS Build

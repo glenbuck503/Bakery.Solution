@@ -75,6 +75,5 @@ namespace Bakery.Tests
       int result = newPastryOrder.PastryOrderPrice();
       Assert.AreEqual(10, result);
     }
-
   }
 }
